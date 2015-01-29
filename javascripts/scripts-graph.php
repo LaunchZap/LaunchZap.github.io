@@ -39,8 +39,8 @@
 		dfill = "rgba("+hexToRgb(dfill).r+","+hexToRgb(dfill).g+","+hexToRgb(dfill).b+","+a+")"
 		dstroke = "rgba("+hexToRgb(dstroke).r+","+hexToRgb(dstroke).g+","+hexToRgb(dstroke).b+","+a+")"
 
-		//
-		
+		//*************************************************************************************************//
+
 		var lzgraphics = lzgraphics || {};
 
 		lzgraphics.render = function() {
