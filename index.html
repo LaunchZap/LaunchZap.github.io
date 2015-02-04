@@ -20,15 +20,19 @@
 
 <body>
   	<a href="https://github.com/launchzap"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" id="ribbon"></a>
+  	<lzgraphics>
+      		<LZGraph class="top lzgraph" data-src="/images/Interactive_Background/top-1.json"></LZGraph>
+		</lzgraphics>
   	<header>
       <div class="inner">
-		<img src="images/logo_lz.png">
-		<h1>LaunchZap<br>The OpenSource eWallet network</h1>
-        		
+		
+		<span>	
+			<img src="images/logo_lz.png">
+			<h1>LaunchZap<br>The OpenSource eWallet network</h1>
+    	</span>
     </header>
 		<lzgraphics>	
-			<LZGraph class="right" data-src="/images/Interactive_Background/right-1.json"></LZGraph>
-			<LZGraph class="top" data-src="/images/Interactive_Background/top-1.json"></LZGraph>
+			<LZGraph class="right lzgraph" data-src="/images/Interactive_Background/right-1.json"></LZGraph>
 		</lzgraphics>
 	<div id="content-wrapper">
       	<div class="inner clearfix">
@@ -62,15 +66,13 @@ git remote add upstream https://github.com/launchzap/server.git
 		</div>
 	</div>
 </body>
-	<script type="text/javascript">
-	//Tené cuidado con paréntesis y llaves innecesarias // Att: S
-	(function() {
-	    var lzp = document.createElement('script');
-	    lzp.type = 'text/javascript';
-	    lzp.async = true;
-	    lzp.src = 'javascripts/scripts-graph.php';
-	    var s = document.getElementsByTagName('script')[0];
-	    s.parentNode.insertBefore(lzp, s);
-	})();
-	</script>
+<script type="text/javascript">(function() {
+    var lzp = document.createElement('script');
+    lzp.type = 'text/javascript';
+    lzp.async = true;
+    lzp.src = 'javascripts/scripts-graph.php';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(lzp, s);
+})();
+</script>
 </html>

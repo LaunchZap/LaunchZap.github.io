@@ -17,29 +17,24 @@ html {
   top 0;
 }
   
-lzgraphic {
+.lzgraph > lzgraphic {
   display: block
 }
     
-.left {
+.lzgraph .left {
   display: block;
   left: 0;
   top: 0;
 }
     
-.right {
-  display: block;
+.lzgraph right {
   position: absolute;
   right: 0;
   top: 0;
 }
     
-.top {
-    margin: 0 auto;
-    display: block;
-    position: absolute;
-    z-index: 5;
-    left: -5%;
+.lzgraph .top
+    margin 0 auto
 }
 
 
@@ -484,17 +479,13 @@ header {
   font-family: 'brandon_grotesquelight', 'Helvetica Neue', Helvetica, Arial, serif;
   background: #2e7bcf url(../images/highlight-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 4;
+  margin: 0;
 }
 
 header img {
   display: inline-block;
-  width: 75px;
-  margin-right: 15px;
+  width: 100%;
+  margin-right: 0;
   border-right-style: solid;
   border-color: #000; 
 }
@@ -513,7 +504,6 @@ header h1 {
    text-fill-color: transparent;
    background-clip: text;
    display: inline-block;
-   z-index: 7;
 }
 
 header h2 {
