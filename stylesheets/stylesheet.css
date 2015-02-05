@@ -542,6 +542,7 @@ header h2 {
 #main-content {
   float: left;
   width: 690px;
+  margin-top: 20%;
 }
 
 #main-content img {
