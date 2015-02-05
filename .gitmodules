@@ -1,0 +1,3 @@
+[submodule "stylesheets/library"]
+	path = stylesheets/library
+	url = https://github.com/launchzap/library
