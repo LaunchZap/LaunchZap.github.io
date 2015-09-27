@@ -207,6 +207,10 @@ a img{
   font-weight: 300;
 }
 
+.launchzap-font b{
+    color: #3c3d3d;
+}
+
 .launchzap-slogan {
   font-size: 60px;
   padding-top: 160px;
